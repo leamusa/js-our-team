@@ -5,23 +5,23 @@
 1. Definisci un array di oggetti che rappresentano i membri del team.
 2. Ogni membro possiede 3 informazioni ‵: (`Nome, Ruolo e Foto.`) necessarie per stampare le relative ‵informazioni
 
-   # MILESTONE 1:
+# MILESTONE 1
 
-   1. stampare su console le informazioni di nome, ruolo e la stringa della foto
+1.  stampare su console le informazioni di nome, ruolo e la stringa della foto
 
-   # MILESTONE 2:
+# MILESTONE 2
 
-   1. stampare le stesse informazioni su DOM sottoforma di stringhe
+1.  stampare le stesse informazioni su DOM sottoforma di stringhe
 
-   # BONUS 1:
+# BONUS 1
 
 - trasformare la stringa foto in una immagine effettiva
 
-  # BONUS 2:
+# BONUS 2
 
 - organizzare i singoli membri in card/schede
 
-  # Consigli del giorno:
+# Consigli del giorno
 
 - Ragioniamo come sempre a step.
 - Prima la logica in italiano e poi traduciamo in codice.
@@ -41,16 +41,16 @@ image: 'wayne-barnett-founder-ceo.jpg',
 name: 'Angela Caroll',
 role: 'Chief Editor',
 image: 'angela-caroll-chief-editor.jpg',
-},
-etc..
-] 2. Each member has 3 information (`Name, Role and Photo.`) required to print the relevant information
+},]
 
-# MILESTONE 1:
+2.  Each member has 3 information (`Name, Role and Photo.`) required to print the relevant information
+
+# MILESTONE 1
 
 - For each member of the team:
   `print` on console the Name, Role and photo information as a string
 
-# MILESTONE 2:
+# MILESTONE 2
 
 - `print` the same information on DOM as strings;
   (For each member of the team):
@@ -58,7 +58,7 @@ etc..
 - `create` a DOM element to represent the = member
 - `add` the DOM element to the = informations(Name, Role, and photo)
 
-# BONUS 1:
+# BONUS 1
 
 - Convert the photo string into a real image;
   (For each member of the team):
@@ -67,12 +67,12 @@ etc..
 - `add` the image element to the DOM element
 - `add` the DOM element to the HTML document
 
-  # BONUS 2:
+# BONUS 2
 
-  - organize individual members in cards/cards:
-  - `add` the DOM element (card) to the HTML document in a section for cards
+- organize individual members in cards/cards:
+- `add` the DOM element (card) to the HTML document in a section for cards
 
-  # Tips of the day:
+# Tips of the day
 
 - As always, think in step.
 - First the logic in Italian and then we translate it into code.
