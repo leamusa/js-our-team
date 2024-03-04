@@ -1,9 +1,12 @@
-//1. Define an array of objects representing team members:
+// Get the element with the class "row" from the HTML document
+const row = document.querySelector(".row");
+
+//1. 1. Define an array of objects representing team members:
 const teamMembers = [
   {
     name: "Wayne Barnett",
     role: "Founder & CEO",
-    image: "wayne-barnett-founder-ceo.jpg",
+    image: " image: 'wayne-barnett-founder-ceo.jpg'",
   },
   {
     name: "Angela Caroll",
@@ -31,12 +34,25 @@ const teamMembers = [
     image: "barbara-ramos-graphic-designer.jpg",
   },
 ];
-//print team members
+// Print the array of members to the console
 console.log(teamMembers);
 
-//# MILESTONE 1:
-//Repetition of teamMembers'info
-for (const key in teamMembers) {
-  //print each member in console
+// Iterate through the elements in the array of members
+for (let key in teamMembers) {
+  // Print each member to the console
   console.log(teamMembers[key]);
+
+  // Build an HTML markup string for each members
+  let card = `
+  <div class="col-4">
+  <div class="card" style="width: 18rem;">
+    <img src="${teamMembers[key].immagine}" class="card-img-top" alt="${teamMembers[key].name}">
+    <div class="card-body">
+      <h5 class="card-title">${teamMembers[key].name}</h5>
+      <p class="card-text">${teamMembers[key].role}</p>
+    </div>
+  </div>
+</div>`;
+
+  row.innerHTML += card;
 }
